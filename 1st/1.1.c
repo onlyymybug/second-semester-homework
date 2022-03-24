@@ -1,3 +1,6 @@
+//求链表中数据max min sum
+//input:1 4 99 21 50 61 32 4 -1
+//output:The maximum,minmum and the total are:99 1 272
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct linklist

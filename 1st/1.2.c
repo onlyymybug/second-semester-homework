@@ -1,3 +1,7 @@
+//链表排序
+//单链表 -1 为结束标志 输入正整数序列 输出排序后的序列
+//input:49 38 65 97 76 13 27 49 -1
+//output:The new list is:13 27 38 49 49 65 76 97
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct linklist
