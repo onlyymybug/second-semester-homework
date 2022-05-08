@@ -1,0 +1,137 @@
+27
+49
+84
+110
+137
+/*
+    Author:BUPT
+    Date:2010 8 26
+*/
+#include <stdio.h>
+
+int main()
+{
+    int n , r , s, i ;
+    int totalScore = 0 ;
+    //hello world 
+    scanf("%d", &n) ;
+    for( i = 0 ; i < n ; i++ )
+    {
+        scanf("%d%d", &r, &s ) ;
+        if ( r == 1 )
+            totalScore += s ;//hellowolrd
+    }
+    printf("%d\n" , totalScore) ;/*dijg
+    dirjg
+    dir */return 0 ;
+}
+//second
+#include <stdio.h>
+#include <math.h>
+/*    numb 2012  //
+// */
+int main()
+{
+    int m, n;
+    scanf("%d%d", &n, &m);
+    int round;
+    int left = 1;
+/*veyr
+    cl//se
+sdljgj*/
+    for(round = 0; round < m; round ++)
+    {
+        left = n * left + 1;
+    }
+    printf("%d", left);
+    
+    return 0;
+}//*egljlj*/
+#include<stdio.h>
+#include<math.h>
+int isprime(int n);
+int main()//djgj /*
+{
+     int t,i,n,k,flag;
+*/
+     scanf("%d",&t);
+     for(i=1;i<=t;i++)     //line      
+     {
+          flag=0;
+          scanf("%d",&n);/d/
+              for(k=2;k<=n/2&&flag==0;k++)    //zhiyinshu
+              {
+                   if(isprime(k)&&n%k==0&&isprime(n/k)&&n!=1&&n!=isprime(n))
+                   {
+                        printf("Yes\n");
+                       flag=1;
+                  }/*hel *
+               }/*****************/}
+          if(flag==0)
+              printf("No\n");/
+     }
+}
+/**********
+int isprime(int n)
+{
+     int i;
+     for(i=2;i<=sqrt(n);i++)
+     {
+          if(n%i==0)
+              return 0;
+     }
+     return n;
+}
+/*
+4th
+Author:
+Date:2019/11/10
+//*/
+#include <stdio.h>
+int zhuanHuan(int before, int n);/
+*int main()/ *
+{
+     int n, result;/
+/n = getchar() - 
+     65;//*
+     printf("%d", zhuanHuan(0, n)) ;//   int
+     return 0;
+}
+int zhuanHuan(int before, int n)
+{
+     int result;     
+     result = before * 13 + n;/          
+     ***/n = getchar() - 65;//     
+     **/if (n != -55)
+     {
+          result = zhuanHuan(result, n);///*****
+     }     
+     return result;//
+}//
+/*   *   /*
+5th
+*/
+/*****/******///hell lll
+#include<stdio.h>
+int main()///***
+{//*****/
+     int n;
+     int a;//*****
+*****/
+     scanf("%d",&n);
+     for(int i=1;i<=(n/2);i++)
+     {/*
+*//lleft
+          int he=0;
+          for(int x=i;x<=(n/2);x++)
+          {//*
+               a=x;
+               he=he+a;
+               if(he==n)*/
+               {/ /llll
+                    printf("%d %d\n",i,a);
+               }
+          }//****
+     }
+     return 0;
+}
